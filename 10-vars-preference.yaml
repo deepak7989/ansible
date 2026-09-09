@@ -11,6 +11,9 @@
   tasks:
   - name: print vars prefernce
     vars:
-      full_name: "siva from task level"
+      #full_name: "siva from task level"
     debug:
       msg: "Hi, {{ full_name }}"
+
+# 1. CMD args
+# 2. Task

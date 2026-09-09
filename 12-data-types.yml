@@ -20,4 +20,4 @@
         duration: {{ duration_in_hrs }}
         is_it_live: {{ is_live_sessions }}
         topics: {{ topics }}
-        more_deatils: {{ more_deatils }}
+        more_details: {{ more_details }}

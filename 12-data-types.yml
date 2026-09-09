@@ -12,12 +12,12 @@
     more_details:
       months: "5"
       trainer: "sivakumar"
-    tasks:
-    - name: print information
-      debug:
-        msg: |
-          name: {{ course }}
-          duration: {{ duration_in_hrs }}
-          is_it_live: {{ is_live_sessios }}
-          topics: {{ topics }}
-          more_deatils: {{ more_deatils }}
+  tasks:
+  - name: print information
+    debug:
+      msg: |
+        name: {{ course }}
+        duration: {{ duration_in_hrs }}
+        is_it_live: {{ is_live_sessios }}
+        topics: {{ topics }}
+        more_deatils: {{ more_deatils }}

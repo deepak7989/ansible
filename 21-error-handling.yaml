@@ -2,5 +2,5 @@
   hosts: local
   connection: local
   tasks:
-  - nam: check roboshop user exist or not
+  - name: check roboshop user exist or not
     command: id roboshop
